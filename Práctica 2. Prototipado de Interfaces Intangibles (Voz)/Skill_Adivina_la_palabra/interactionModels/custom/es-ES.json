@@ -1,0 +1,249 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "adivina la palabra",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "Answer",
+              "type": "Respuesta"
+            }
+          ],
+          "samples": [
+            "esta respuesta es {Answer}",
+            "esta palabra es {Answer}",
+            "la palabra oculta es {Answer}",
+            "la palabra que hay que adivinar es {Answer}",
+            "la palabra secreta es {Answer}",
+            "la palabra correcta es {Answer}",
+            "es la palabra {Answer}",
+            "la palabra es {Answer}",
+            "es {Answer}",
+            "la respuesta es {Answer}"
+          ]
+        },
+        {
+          "name": "CharacterIntent",
+          "slots": [
+            {
+              "name": "Character",
+              "type": "Letters"
+            }
+          ],
+          "samples": [
+            "la palabra tiene la letra {Character}",
+            "la palabra contiene la letra {Character}",
+            "la letra {Character} esta dentro de la palabra",
+            "creo que contiene la letra {Character}",
+            "esta letra {Character} existe ",
+            "existe la letra {Character} en la plabra",
+            "existe la letra {Character}",
+            "esta la letra {Character} en la palabra",
+            "La letra {Character}",
+            "quiero la letra {Character}",
+            "dame la letra {Character}",
+            "existe la {Character}",
+            "La letra {Character} esta en la frase",
+            "tiene la frase una {Character}",
+            "Posee la frase una {Character}",
+            "Tiene la letra {Character}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dormitorio"
+              }
+            },
+            {
+              "name": {
+                "value": "auriculares"
+              }
+            },
+            {
+              "name": {
+                "value": "neumatico"
+              }
+            },
+            {
+              "name": {
+                "value": "coche"
+              }
+            },
+            {
+              "name": {
+                "value": "computador"
+              }
+            }
+          ],
+          "name": "Respuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "x"
+              }
+            },
+            {
+              "name": {
+                "value": "z"
+              }
+            },
+            {
+              "name": {
+                "value": "y"
+              }
+            },
+            {
+              "name": {
+                "value": "w"
+              }
+            },
+            {
+              "name": {
+                "value": "v"
+              }
+            },
+            {
+              "name": {
+                "value": "u"
+              }
+            },
+            {
+              "name": {
+                "value": "t"
+              }
+            },
+            {
+              "name": {
+                "value": "s"
+              }
+            },
+            {
+              "name": {
+                "value": "r"
+              }
+            },
+            {
+              "name": {
+                "value": "q"
+              }
+            },
+            {
+              "name": {
+                "value": "p"
+              }
+            },
+            {
+              "name": {
+                "value": "o"
+              }
+            },
+            {
+              "name": {
+                "value": "n"
+              }
+            },
+            {
+              "name": {
+                "value": "m"
+              }
+            },
+            {
+              "name": {
+                "value": "l"
+              }
+            },
+            {
+              "name": {
+                "value": "k"
+              }
+            },
+            {
+              "name": {
+                "value": "j"
+              }
+            },
+            {
+              "name": {
+                "value": "i"
+              }
+            },
+            {
+              "name": {
+                "value": "h"
+              }
+            },
+            {
+              "name": {
+                "value": "g"
+              }
+            },
+            {
+              "name": {
+                "value": "f"
+              }
+            },
+            {
+              "name": {
+                "value": "e"
+              }
+            },
+            {
+              "name": {
+                "value": "d"
+              }
+            },
+            {
+              "name": {
+                "value": "c"
+              }
+            },
+            {
+              "name": {
+                "value": "b"
+              }
+            },
+            {
+              "name": {
+                "value": "a"
+              }
+            }
+          ],
+          "name": "Letters"
+        }
+      ]
+    }
+  },
+  "version": "12"
+}
